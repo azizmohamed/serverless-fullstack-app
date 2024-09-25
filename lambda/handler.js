@@ -8,6 +8,7 @@ const ddbClient = new DynamoDBClient();
 // Create the DynamoDBDocumentClient to simplify interactions
 const dynamoDb = DynamoDBDocumentClient.from(ddbClient);
 
+
 // Define the CORS headers
 const corsHeaders = {
     'Access-Control-Allow-Origin': '*',
